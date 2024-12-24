@@ -1,17 +1,10 @@
 # Datasets
-## Dataset strcture
 
-We have organized the dataset into different sub-folders based on the raw data and the processed data we extracted:
+We have organized the dataset into different sub-folders based on the raw data, processed data, and files prepared for analysis:
 
-| Data Collection Method | Raw Datasets Subfolder |
-| :--- | :---: |
-| XCAL | [xcal_raw](./xcal_raw) |
-| ICMPbased_PING | [rtt](./rtt) |
-
-*Note: ICMP-based_PING only contains data from Drive2 and Drive3.
-
-| Type | Intermidiate Datasets Subfolder | Details |
-| :--- | :---: | :---: |
-| Extracted XCAL datasets | [xcal_processed](./xcal_processed) | Extracted the essential data needed for analysis, categorized into uplink and downlink. |
-| RTT aligned with different cellular technologies | [rtt_aligned](./rtt_aligned) | Aligned RTT data with the cellular technology in use at the corresponding timestamp. |
+| **Data Collection Stage** | **Subfolder**         | **Details**                                                                                      |
+| :------------------------- | :-------------------- | :----------------------------------------------------------------------------------------------- |
+| Raw Data                  | [raw_files](./raw_files)       | Unprocessed original files collected from various sources.                                        |
+| Processed Data            | [processed_files](./processed_files) | Files that have undergone basic preprocessing, such as format adjustments or column extraction.   |
+| Analysis-Ready Data       | [analysis_ready_files](./analysis_ready_files) | Files further organized and prepared based on the analysis points outlined in our publication.    |
 
