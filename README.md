@@ -155,6 +155,6 @@ The scripts folder contains functions and utilities for extracting data from raw
     4. **Throughput Analysis**  
     This folder includes a dataframe (`operatorpairs_diff.csv`) with the throughput differences between operator pairs at the same timestamps. It also contains XCAL extracted files annotated with the cellular technologies of different operators.
 
-- **Usage**
+
 
 
